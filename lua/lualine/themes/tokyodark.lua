@@ -24,17 +24,17 @@ local tokyo_dark = {
         z = { fg = colors.grey, bg = colors.bg },
     },
     normal = {
-        a = { fg = colors.bg, bg = colors.green, gui = "bold" },
+        a = { fg = colors.blue, bg = colors.bg4, gui = "bold" },
         b = { fg = colors.fg, bg = colors.bg },
         c = { fg = colors.fg, bg = colors.bg },
         x = { fg = colors.fg, bg = colors.bg },
         y = { fg = colors.fg, bg = colors.bg },
-        z = { fg = colors.bg, bg = colors.green, gui = "bold" },
+        z = { fg = colors.red, bg = colors.bg4, gui = "bold" },
     },
-    visual = { a = { fg = colors.bg, bg = colors.purple, gui = "bold" } },
-    replace = { a = { fg = colors.bg, bg = colors.red, gui = "bold" } },
-    insert = { a = { fg = colors.bg, bg = colors.blue, gui = "bold" } },
-    command = { a = { fg = colors.bg, bg = colors.yellow, gui = "bold" } },
+    visual = { a = { fg = colors.purple, bg = colors.bg4, gui = "bold" } },
+    replace = { a = { fg = colors.red, bg = colors.bg4, gui = "bold" } },
+    insert = { a = { fg = colors.blue, bg = colors.bg4, gui = "bold" } },
+    command = { a = { fg = colors.yellow, bg = colors.bg4, gui = "bold" } },
 }
 
 local mt = {}

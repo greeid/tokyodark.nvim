@@ -4,10 +4,12 @@
 local p = require("tokyodark.palette")
 local colors = {
     bg = p.bg1,
+    nbg = p.bg3,
     fg = p.fg,
     red = p.red,
     green = p.green,
     yellow = p.yellow,
+    orange = p.orange,
     blue = p.blue,
     purple = p.purple,
     cyan = p.cyan,
@@ -24,17 +26,37 @@ local tokyo_dark = {
         z = { fg = colors.grey, bg = colors.bg },
     },
     normal = {
-        a = { fg = colors.blue, bg = colors.bg4, gui = "bold" },
+        a = { fg = colors.blue, bg = colors.nbg, gui = "bold" },
         b = { fg = colors.fg, bg = colors.bg },
         c = { fg = colors.fg, bg = colors.bg },
-        x = { fg = colors.fg, bg = colors.bg },
-        y = { fg = colors.fg, bg = colors.bg },
-        z = { fg = colors.red, bg = colors.bg4, gui = "bold" },
+        x = { fg = colors.green, bg = colors.bg },
+        y = { fg = colors.orange, bg = colors.bg },
+        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
     },
-    visual = { a = { fg = colors.purple, bg = colors.bg4, gui = "bold" } },
-    replace = { a = { fg = colors.red, bg = colors.bg4, gui = "bold" } },
-    insert = { a = { fg = colors.blue, bg = colors.bg4, gui = "bold" } },
-    command = { a = { fg = colors.yellow, bg = colors.bg4, gui = "bold" } },
+    visual = {
+        a = { fg = colors.blue, bg = colors.nbg, gui = "bold" },
+        x = { fg = colors.green, bg = colors.bg },
+        y = { fg = colors.orange, bg = colors.bg },
+        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+    },
+    replace = {
+        a = { fg = colors.orange, bg = colors.nbg, gui = "bold" },
+        x = { fg = colors.green, bg = colors.bg },
+        y = { fg = colors.orange, bg = colors.bg },
+        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+    },
+    insert = {
+        a = { fg = colors.purple, bg = colors.nbg, gui = "bold" },
+        x = { fg = colors.green, bg = colors.bg },
+        y = { fg = colors.orange, bg = colors.bg },
+        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+    },
+    command = {
+        a = { fg = colors.green, bg = colors.nbg, gui = "bold" },
+        x = { fg = colors.green, bg = colors.bg },
+        y = { fg = colors.orange, bg = colors.bg },
+        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+    },
 }
 
 local mt = {}

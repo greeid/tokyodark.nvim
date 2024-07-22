@@ -31,31 +31,31 @@ local tokyo_dark = {
         c = { fg = colors.fg, bg = colors.bg },
         x = { fg = colors.green, bg = colors.bg },
         y = { fg = colors.orange, bg = colors.bg },
-        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+        z = { fg = colors.red, bg = colors.nbg },
     },
     visual = {
         a = { fg = colors.blue, bg = colors.nbg, gui = "bold" },
         x = { fg = colors.green, bg = colors.bg },
         y = { fg = colors.orange, bg = colors.bg },
-        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+        z = { fg = colors.red, bg = colors.nbg },
     },
     replace = {
         a = { fg = colors.orange, bg = colors.nbg, gui = "bold" },
         x = { fg = colors.green, bg = colors.bg },
         y = { fg = colors.orange, bg = colors.bg },
-        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+        z = { fg = colors.red, bg = colors.nbg },
     },
     insert = {
         a = { fg = colors.purple, bg = colors.nbg, gui = "bold" },
         x = { fg = colors.green, bg = colors.bg },
         y = { fg = colors.orange, bg = colors.bg },
-        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+        z = { fg = colors.red, bg = colors.nbg },
     },
     command = {
         a = { fg = colors.green, bg = colors.nbg, gui = "bold" },
         x = { fg = colors.green, bg = colors.bg },
         y = { fg = colors.orange, bg = colors.bg },
-        z = { fg = colors.red, bg = colors.nbg, gui = "bold" },
+        z = { fg = colors.red, bg = colors.nbg },
     },
 }
 
